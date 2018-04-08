@@ -13,9 +13,28 @@
 		7141F02C20737D5A00C49794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7141F02B20737D5A00C49794 /* Assets.xcassets */; };
 		7141F02F20737D5A00C49794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7141F02D20737D5A00C49794 /* LaunchScreen.storyboard */; };
 		7141F03220737D5A00C49794 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141F03120737D5A00C49794 /* main.m */; };
+		71979F142079FE5A00B8AF02 /* NSArray+FKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71979EF02079FE5A00B8AF02 /* NSArray+FKAdd.m */; };
+		71979F152079FE5A00B8AF02 /* NSError+FKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71979EF12079FE5A00B8AF02 /* NSError+FKAdd.m */; };
+		71979F162079FE5A00B8AF02 /* UIImage+FKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71979EF42079FE5A00B8AF02 /* UIImage+FKAdd.m */; };
+		71979F172079FE5A00B8AF02 /* NSString+FKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71979EF52079FE5A00B8AF02 /* NSString+FKAdd.m */; };
+		71979F182079FE5A00B8AF02 /* NSDictionary+FKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71979EF62079FE5A00B8AF02 /* NSDictionary+FKAdd.m */; };
+		71979F192079FE5A00B8AF02 /* NSURL+FKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71979EF82079FE5A00B8AF02 /* NSURL+FKAdd.m */; };
+		71979F1A2079FE5A00B8AF02 /* NSDate+FKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71979EF92079FE5A00B8AF02 /* NSDate+FKAdd.m */; };
+		71979F1B2079FE5A00B8AF02 /* UIImageView+FKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71979EFE2079FE5A00B8AF02 /* UIImageView+FKAdd.m */; };
+		71979F1C2079FE5A00B8AF02 /* UINavigationController+FKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71979F002079FE5A00B8AF02 /* UINavigationController+FKAdd.m */; };
+		71979F1D2079FE5A00B8AF02 /* UISearchBar+FKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71979F012079FE5A00B8AF02 /* UISearchBar+FKAdd.m */; };
+		71979F1E2079FE5A00B8AF02 /* UIView+FKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71979F022079FE5A00B8AF02 /* UIView+FKAdd.m */; };
+		71979F1F2079FE5A00B8AF02 /* UIScrollView+Refresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 71979F032079FE5A00B8AF02 /* UIScrollView+Refresh.m */; };
+		71979F202079FE5A00B8AF02 /* UILabel+FKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71979F062079FE5A00B8AF02 /* UILabel+FKAdd.m */; };
+		71979F212079FE5A00B8AF02 /* UIViewController+FKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71979F072079FE5A00B8AF02 /* UIViewController+FKAdd.m */; };
+		71979F222079FE5A00B8AF02 /* UITabBar+FKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71979F092079FE5A00B8AF02 /* UITabBar+FKAdd.m */; };
+		71979F232079FE5A00B8AF02 /* UIButton+FKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71979F0D2079FE5A00B8AF02 /* UIButton+FKAdd.m */; };
+		71979F242079FE5A00B8AF02 /* UITabBarItem+FKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71979F102079FE5A00B8AF02 /* UITabBarItem+FKAdd.m */; };
+		71CAB3B56D0BA246CA8B86AC /* libPods-FKCategories.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A50FC27C7893F6AA354B7C0 /* libPods-FKCategories.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A50FC27C7893F6AA354B7C0 /* libPods-FKCategories.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FKCategories.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7141F01F20737D5900C49794 /* FKCategories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FKCategories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7141F02220737D5900C49794 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7141F02320737D5900C49794 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +45,43 @@
 		7141F02E20737D5A00C49794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7141F03020737D5A00C49794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7141F03120737D5A00C49794 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71979EED2079FE5A00B8AF02 /* NSString+FKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FKAdd.h"; sourceTree = "<group>"; };
+		71979EEE2079FE5A00B8AF02 /* UIImage+FKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FKAdd.h"; sourceTree = "<group>"; };
+		71979EEF2079FE5A00B8AF02 /* NSDictionary+FKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+FKAdd.h"; sourceTree = "<group>"; };
+		71979EF02079FE5A00B8AF02 /* NSArray+FKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FKAdd.m"; sourceTree = "<group>"; };
+		71979EF12079FE5A00B8AF02 /* NSError+FKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+FKAdd.m"; sourceTree = "<group>"; };
+		71979EF22079FE5A00B8AF02 /* NSDate+FKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+FKAdd.h"; sourceTree = "<group>"; };
+		71979EF32079FE5A00B8AF02 /* NSURL+FKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+FKAdd.h"; sourceTree = "<group>"; };
+		71979EF42079FE5A00B8AF02 /* UIImage+FKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FKAdd.m"; sourceTree = "<group>"; };
+		71979EF52079FE5A00B8AF02 /* NSString+FKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FKAdd.m"; sourceTree = "<group>"; };
+		71979EF62079FE5A00B8AF02 /* NSDictionary+FKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+FKAdd.m"; sourceTree = "<group>"; };
+		71979EF72079FE5A00B8AF02 /* NSArray+FKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FKAdd.h"; sourceTree = "<group>"; };
+		71979EF82079FE5A00B8AF02 /* NSURL+FKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+FKAdd.m"; sourceTree = "<group>"; };
+		71979EF92079FE5A00B8AF02 /* NSDate+FKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FKAdd.m"; sourceTree = "<group>"; };
+		71979EFA2079FE5A00B8AF02 /* NSError+FKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+FKAdd.h"; sourceTree = "<group>"; };
+		71979EFB2079FE5A00B8AF02 /* FKCategoriesHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKCategoriesHeader.h; sourceTree = "<group>"; };
+		71979EFD2079FE5A00B8AF02 /* UITabBar+FKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+FKAdd.h"; sourceTree = "<group>"; };
+		71979EFE2079FE5A00B8AF02 /* UIImageView+FKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+FKAdd.m"; sourceTree = "<group>"; };
+		71979EFF2079FE5A00B8AF02 /* UIViewController+FKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FKAdd.h"; sourceTree = "<group>"; };
+		71979F002079FE5A00B8AF02 /* UINavigationController+FKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FKAdd.m"; sourceTree = "<group>"; };
+		71979F012079FE5A00B8AF02 /* UISearchBar+FKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+FKAdd.m"; sourceTree = "<group>"; };
+		71979F022079FE5A00B8AF02 /* UIView+FKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FKAdd.m"; sourceTree = "<group>"; };
+		71979F032079FE5A00B8AF02 /* UIScrollView+Refresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Refresh.m"; sourceTree = "<group>"; };
+		71979F042079FE5A00B8AF02 /* UIButton+FKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FKAdd.h"; sourceTree = "<group>"; };
+		71979F052079FE5A00B8AF02 /* UITabBarItem+FKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+FKAdd.h"; sourceTree = "<group>"; };
+		71979F062079FE5A00B8AF02 /* UILabel+FKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FKAdd.m"; sourceTree = "<group>"; };
+		71979F072079FE5A00B8AF02 /* UIViewController+FKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FKAdd.m"; sourceTree = "<group>"; };
+		71979F082079FE5A00B8AF02 /* UIImageView+FKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+FKAdd.h"; sourceTree = "<group>"; };
+		71979F092079FE5A00B8AF02 /* UITabBar+FKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+FKAdd.m"; sourceTree = "<group>"; };
+		71979F0A2079FE5A00B8AF02 /* UIView+FKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FKAdd.h"; sourceTree = "<group>"; };
+		71979F0B2079FE5A00B8AF02 /* UISearchBar+FKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+FKAdd.h"; sourceTree = "<group>"; };
+		71979F0C2079FE5A00B8AF02 /* UINavigationController+FKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FKAdd.h"; sourceTree = "<group>"; };
+		71979F0D2079FE5A00B8AF02 /* UIButton+FKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FKAdd.m"; sourceTree = "<group>"; };
+		71979F0E2079FE5A00B8AF02 /* UIScrollView+Refresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Refresh.h"; sourceTree = "<group>"; };
+		71979F0F2079FE5A00B8AF02 /* UILabel+FKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FKAdd.h"; sourceTree = "<group>"; };
+		71979F102079FE5A00B8AF02 /* UITabBarItem+FKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+FKAdd.m"; sourceTree = "<group>"; };
+		85D9FCC149CF3F37200F59A4 /* Pods-FKCategories.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FKCategories.release.xcconfig"; path = "Pods/Target Support Files/Pods-FKCategories/Pods-FKCategories.release.xcconfig"; sourceTree = "<group>"; };
+		967268A66EDF98BDB4186CCF /* Pods-FKCategories.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FKCategories.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FKCategories/Pods-FKCategories.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71CAB3B56D0BA246CA8B86AC /* libPods-FKCategories.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +101,8 @@
 			children = (
 				7141F02120737D5900C49794 /* FKCategories */,
 				7141F02020737D5900C49794 /* Products */,
+				C74CECFEAF02C5E3EA4294E0 /* Pods */,
+				76BCB2F316C85657C8E2C537 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +117,7 @@
 		7141F02120737D5900C49794 /* FKCategories */ = {
 			isa = PBXGroup;
 			children = (
+				71979EEB2079FE5A00B8AF02 /* Categories */,
 				7141F02220737D5900C49794 /* AppDelegate.h */,
 				7141F02320737D5900C49794 /* AppDelegate.m */,
 				7141F02520737D5900C49794 /* ViewController.h */,
@@ -71,6 +131,82 @@
 			path = FKCategories;
 			sourceTree = "<group>";
 		};
+		71979EEB2079FE5A00B8AF02 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				71979EFB2079FE5A00B8AF02 /* FKCategoriesHeader.h */,
+				71979F282079FE7A00B8AF02 /* UIKit */,
+				71979F262079FE6200B8AF02 /* Foundation */,
+			);
+			name = Categories;
+			path = ../../../FK_CDBT_Projects/BTYxyz/BTYxyz/Tools/Categories;
+			sourceTree = "<group>";
+		};
+		71979F262079FE6200B8AF02 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				71979EED2079FE5A00B8AF02 /* NSString+FKAdd.h */,
+				71979EF52079FE5A00B8AF02 /* NSString+FKAdd.m */,
+				71979EEE2079FE5A00B8AF02 /* UIImage+FKAdd.h */,
+				71979EF42079FE5A00B8AF02 /* UIImage+FKAdd.m */,
+				71979EEF2079FE5A00B8AF02 /* NSDictionary+FKAdd.h */,
+				71979EF62079FE5A00B8AF02 /* NSDictionary+FKAdd.m */,
+				71979EF72079FE5A00B8AF02 /* NSArray+FKAdd.h */,
+				71979EF02079FE5A00B8AF02 /* NSArray+FKAdd.m */,
+				71979EFA2079FE5A00B8AF02 /* NSError+FKAdd.h */,
+				71979EF12079FE5A00B8AF02 /* NSError+FKAdd.m */,
+				71979EF22079FE5A00B8AF02 /* NSDate+FKAdd.h */,
+				71979EF92079FE5A00B8AF02 /* NSDate+FKAdd.m */,
+				71979EF32079FE5A00B8AF02 /* NSURL+FKAdd.h */,
+				71979EF82079FE5A00B8AF02 /* NSURL+FKAdd.m */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		71979F282079FE7A00B8AF02 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				71979EFD2079FE5A00B8AF02 /* UITabBar+FKAdd.h */,
+				71979F092079FE5A00B8AF02 /* UITabBar+FKAdd.m */,
+				71979EFE2079FE5A00B8AF02 /* UIImageView+FKAdd.m */,
+				71979F082079FE5A00B8AF02 /* UIImageView+FKAdd.h */,
+				71979EFF2079FE5A00B8AF02 /* UIViewController+FKAdd.h */,
+				71979F072079FE5A00B8AF02 /* UIViewController+FKAdd.m */,
+				71979F0C2079FE5A00B8AF02 /* UINavigationController+FKAdd.h */,
+				71979F002079FE5A00B8AF02 /* UINavigationController+FKAdd.m */,
+				71979F0B2079FE5A00B8AF02 /* UISearchBar+FKAdd.h */,
+				71979F012079FE5A00B8AF02 /* UISearchBar+FKAdd.m */,
+				71979F0A2079FE5A00B8AF02 /* UIView+FKAdd.h */,
+				71979F022079FE5A00B8AF02 /* UIView+FKAdd.m */,
+				71979F0E2079FE5A00B8AF02 /* UIScrollView+Refresh.h */,
+				71979F032079FE5A00B8AF02 /* UIScrollView+Refresh.m */,
+				71979F042079FE5A00B8AF02 /* UIButton+FKAdd.h */,
+				71979F0D2079FE5A00B8AF02 /* UIButton+FKAdd.m */,
+				71979F052079FE5A00B8AF02 /* UITabBarItem+FKAdd.h */,
+				71979F102079FE5A00B8AF02 /* UITabBarItem+FKAdd.m */,
+				71979F0F2079FE5A00B8AF02 /* UILabel+FKAdd.h */,
+				71979F062079FE5A00B8AF02 /* UILabel+FKAdd.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		76BCB2F316C85657C8E2C537 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A50FC27C7893F6AA354B7C0 /* libPods-FKCategories.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C74CECFEAF02C5E3EA4294E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				967268A66EDF98BDB4186CCF /* Pods-FKCategories.debug.xcconfig */,
+				85D9FCC149CF3F37200F59A4 /* Pods-FKCategories.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7141F03520737D5A00C49794 /* Build configuration list for PBXNativeTarget "FKCategories" */;
 			buildPhases = (
+				F3C05ACA281899F3A4C90BCE /* [CP] Check Pods Manifest.lock */,
 				7141F01B20737D5900C49794 /* Sources */,
 				7141F01C20737D5900C49794 /* Frameworks */,
 				7141F01D20737D5900C49794 /* Resources */,
+				86F7064BCAB4421F157E57FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,14 +274,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		86F7064BCAB4421F157E57FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FKCategories/Pods-FKCategories-resources.sh",
+				"${PODS_ROOT}/FKMBProgressHUDExtension/FKMBProgressHUDExtension/HUD/icon_hud/icon_hud_success@2x.png",
+				"${PODS_ROOT}/FKMBProgressHUDExtension/FKMBProgressHUDExtension/HUD/icon_hud/icon_hud_success@3x.png",
+				"${PODS_ROOT}/FKMBProgressHUDExtension/FKMBProgressHUDExtension/HUD/icon_hud/icon_hud_success_new@2x.png",
+				"${PODS_ROOT}/FKMBProgressHUDExtension/FKMBProgressHUDExtension/HUD/icon_hud/icon_hud_success_new@3x.png",
+				"${PODS_ROOT}/FKMBProgressHUDExtension/FKMBProgressHUDExtension/HUD/icon_hud/icon_hud_warning@2x.png",
+				"${PODS_ROOT}/FKMBProgressHUDExtension/FKMBProgressHUDExtension/HUD/icon_hud/icon_hud_warning@3x.png",
+				"${PODS_ROOT}/FKMBProgressHUDExtension/FKMBProgressHUDExtension/HUD/icon_hud/icon_hud_warning_new@2x.png",
+				"${PODS_ROOT}/FKMBProgressHUDExtension/FKMBProgressHUDExtension/HUD/icon_hud/icon_hud_warning_new@3x.png",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_hud_success@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_hud_success@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_hud_success_new@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_hud_success_new@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_hud_warning@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_hud_warning@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_hud_warning_new@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_hud_warning_new@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FKCategories/Pods-FKCategories-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3C05ACA281899F3A4C90BCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FKCategories-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7141F01B20737D5900C49794 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71979F172079FE5A00B8AF02 /* NSString+FKAdd.m in Sources */,
+				71979F242079FE5A00B8AF02 /* UITabBarItem+FKAdd.m in Sources */,
 				7141F02720737D5900C49794 /* ViewController.m in Sources */,
+				71979F232079FE5A00B8AF02 /* UIButton+FKAdd.m in Sources */,
 				7141F03220737D5A00C49794 /* main.m in Sources */,
+				71979F182079FE5A00B8AF02 /* NSDictionary+FKAdd.m in Sources */,
+				71979F1F2079FE5A00B8AF02 /* UIScrollView+Refresh.m in Sources */,
+				71979F1D2079FE5A00B8AF02 /* UISearchBar+FKAdd.m in Sources */,
+				71979F1E2079FE5A00B8AF02 /* UIView+FKAdd.m in Sources */,
+				71979F1C2079FE5A00B8AF02 /* UINavigationController+FKAdd.m in Sources */,
+				71979F162079FE5A00B8AF02 /* UIImage+FKAdd.m in Sources */,
+				71979F212079FE5A00B8AF02 /* UIViewController+FKAdd.m in Sources */,
+				71979F1B2079FE5A00B8AF02 /* UIImageView+FKAdd.m in Sources */,
 				7141F02420737D5900C49794 /* AppDelegate.m in Sources */,
+				71979F152079FE5A00B8AF02 /* NSError+FKAdd.m in Sources */,
+				71979F192079FE5A00B8AF02 /* NSURL+FKAdd.m in Sources */,
+				71979F222079FE5A00B8AF02 /* UITabBar+FKAdd.m in Sources */,
+				71979F202079FE5A00B8AF02 /* UILabel+FKAdd.m in Sources */,
+				71979F142079FE5A00B8AF02 /* NSArray+FKAdd.m in Sources */,
+				71979F1A2079FE5A00B8AF02 /* NSDate+FKAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +493,12 @@
 		};
 		7141F03620737D5A00C49794 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 967268A66EDF98BDB4186CCF /* Pods-FKCategories.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FKCategories/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.forkid.FKCategories;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,14 +507,12 @@
 		};
 		7141F03720737D5A00C49794 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85D9FCC149CF3F37200F59A4 /* Pods-FKCategories.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FKCategories/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.forkid.FKCategories;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
